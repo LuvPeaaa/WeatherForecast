@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    background: linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("https://wallpapers.com/images/high/early-evening-anime-sky-4k-phone-d2876r9f8mo349rg.webp") no-repeat center/cover ;
+    }
