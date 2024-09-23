@@ -16,10 +16,23 @@
     background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/pic.jpg") no-repeat center/cover ;
     }
     #weather{
-        width: 350px;
+        width: 400px;
         border-radius: 10px;
         padding: 30px 20px;
-        background: rgb(84, 110, 223);
+        background: rgb(0, 0, 0, 0.2);
+    }
+    .rainny{
+        
+        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/rain.jpg") no-repeat center/cover ;
+
+    }
+    .sunny{
+        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/pic.jpg") no-repeat center/cover ;
+
+    }
+    .cloudy{
+        background: linear-gradient(to top  ,rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url("/WeatherForecast/pic.jpg") no-repeat center/cover ;
+
     }
     .search{
 
@@ -32,6 +45,7 @@
         box-shadow: 0 3px rgba(0,0,0,0.5);
         transition: 0.5s;
         font-size: 19px;
+        margin-bottom: 10px;
     }
     .search:focus{
         background: rgba(255,255,255, 0.7);
@@ -42,10 +56,17 @@
 
         text-align: center;
         color: whitesmoke;
-        margin: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.4;
+    }
+    .hide{
+        visibility: hidden;
+        opacity: 0;
     }
     .capital{
         text-shadow: 2px 2px rgba(0,0,0,0.5);
+        font-size: 40px;
 
     }
     .time{
@@ -54,7 +75,7 @@
 
     }
     .temperature{
-font-size: 65px;
+font-size: 75px;
 text-shadow: 4px 4px rgba(0,0,0,0.7);
 background: rgba(255, 255,255, 0.5);
 box-shadow: 4px 4px rgba(0,0,0,0.5);
@@ -62,23 +83,28 @@ border: none;
 border-radius: 10px;
 margin: 0 20px;
 padding: 20px;
+
     }
-    .short-desc{
-margin-top: 30px;
-font-size: 50px;
-font-weight: normal;
-justify-content: center;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .shortDesc{
+margin: 30px;
+font-size: 40px;
+font-weight: bold;
+        
     text-shadow: 3px 3px rgba(0,0,0,0.7);
 
     }
-    .more-desc div{
+    .moreDesc{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .moreDesc div{
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 5px;
     }
-    .more-desc div i{
+    .moreDesc div i{
 
-        margin: 10px;
+        margin: 10px 0  ;
     }
+    
